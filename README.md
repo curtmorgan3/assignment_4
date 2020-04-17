@@ -1,2 +1,3 @@
-# assignment_4
-# assignment_4
+# Assignment 4
+
+Consists of a SQL Script used to create a Paper Reviews Database

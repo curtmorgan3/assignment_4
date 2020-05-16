@@ -40,6 +40,7 @@ CREATE TABLE paper (
   title VARCHAR(45) NULL,
   abstract VARCHAR(45) NULL,
   fileN VARCHAR(45) NULL,
+  authorEmail VARCHAR(45) NULL,
   PRIMARY KEY (id));
 
 
@@ -95,21 +96,21 @@ INSERT INTO topic
 ;
 
 INSERT INTO paper
-  (id, title, fileN, abstract)
+  (id, title, fileN, abstract, authorEmail)
   VALUES
-  (1, 'A Long Way Home', 'wayHome.txt', ' the middle of text')
+  (1, 'A Long Way Home', 'wayHome.txt', ' the middle of text', 'sking@gmail.com')
 ;
 
 INSERT INTO paper
-  (id, title, fileN, abstract)
+  (id, title, fileN, abstract, authorEmail)
   VALUES
-  (2, 'This way comes.', 'thisWay.txt', 'rnet. It uses a')
+  (2, 'This way comes.', 'thisWay.txt', 'rnet. It uses a', 'dkoontz@gmail.com')
 ;
 
 INSERT INTO paper
-  (id, title, fileN, abstract)
+  (id, title, fileN, abstract, authorEmail)
   VALUES
-  (3, 'A Long Way Home', 'wayHome.txt', 'y of over 200')
+  (3, 'A Long Way Home', 'wayHome.txt', 'y of over 200', 'jscalzi@gmail.com')
 ;
 
 INSERT INTO review
